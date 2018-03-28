@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Learning testNG]">
+  <test name="TestNGApplication(failed)">
+    <classes>
+      <class name="module9TestNG.TestNGApplication">
+        <methods>
+          <include name="beforeMthod"/>
+          <include name="afterMethod"/>
+          <include name="updateNameTEst"/>
+          <include name="beforeTEst"/>
+          <include name="afterTEst"/>
+        </methods>
+      </class> <!-- module9TestNG.TestNGApplication -->
+    </classes>
+  </test> <!-- TestNGApplication(failed) -->
+  <test name="RegistrationTest(failed)">
+    <classes>
+      <class name="module9TestNG.RegistrationTest">
+        <methods>
+          <include name="doREgister"/>
+        </methods>
+      </class> <!-- module9TestNG.RegistrationTest -->
+    </classes>
+  </test> <!-- RegistrationTest(failed) -->
+</suite> <!-- Failed suite [Learning testNG] -->
