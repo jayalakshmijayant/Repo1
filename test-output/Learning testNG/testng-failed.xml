@@ -1,26 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" name="Failed suite [Learning testNG]">
-  <test name="TestNGApplication(failed)">
+<suite name="Failed suite [Learning testNG]" parallel="true">
+  <test name="RegistrationTest(failed)" parallel="true">
     <classes>
-      <class name="module9TestNG.TestNGApplication">
+      <class name="module9TestNG.LoginTest">
         <methods>
-          <include name="beforeMthod"/>
-          <include name="afterMethod"/>
-          <include name="updateNameTEst"/>
-          <include name="beforeTEst"/>
-          <include name="afterTEst"/>
+          <include name="beforemthd"/>
+          <include name="afterMthd"/>
         </methods>
-      </class> <!-- module9TestNG.TestNGApplication -->
-    </classes>
-  </test> <!-- TestNGApplication(failed) -->
-  <test name="RegistrationTest(failed)">
-    <classes>
+      </class>
       <class name="module9TestNG.RegistrationTest">
         <methods>
           <include name="doREgister"/>
         </methods>
-      </class> <!-- module9TestNG.RegistrationTest -->
+      </class>
+      <class name="module9TestNG.TestNGApplication">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMthod"/>
+          <include name="beforeTEst"/>
+          <include name="afterTEst"/>
+        </methods>
+      </class>
     </classes>
-  </test> <!-- RegistrationTest(failed) -->
-</suite> <!-- Failed suite [Learning testNG] -->
+  </test>
+  <test name="TestNGApplication(failed)" parallel="true">
+    <classes>
+      <class name="module9TestNG.LoginTest">
+        <methods>
+          <include name="beforemthd"/>
+          <include name="afterMthd"/>
+        </methods>
+      </class>
+      <class name="module9TestNG.TestNGApplication">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMthod"/>
+          <include name="beforeTEst"/>
+          <include name="updateNameTEst"/>
+          <include name="afterTEst"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
