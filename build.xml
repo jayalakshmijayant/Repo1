@@ -15,7 +15,6 @@
     
     <!--target name="start-selenium-server">
         <java jar="${ws.home}/lib/selenium-server.jar"/>
-
     </target-->
 
     <target name="setClassPath" unless="test.classpath">
