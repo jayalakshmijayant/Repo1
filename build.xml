@@ -62,7 +62,11 @@
             debug="true" 
             destdir="${test.dest}" 
             srcdir="${test.src}" 
+<<<<<<< HEAD
             target="1.8" 
+=======
+            target="1.5" 
+>>>>>>> b95f80cf2e33dc63fda04097a1702ad30d7f3615
             classpath="${test.classpath}"
         >
         </javac>
@@ -96,6 +100,10 @@
 	
 	  <target name="makexsltreports">
 	        <mkdir dir="${ws.home}/XSLT_Reports/output"/>
+<<<<<<< HEAD
+=======
+
+>>>>>>> b95f80cf2e33dc63fda04097a1702ad30d7f3615
 	        <xslt in="${ng.result}/testng-results.xml" style="src/testng-results.xsl"
 	              out="${ws.home}/XSLT_Reports/output/index.html" classpathref="test.c" processor="SaxonLiaison">
 	            <param name="testNgXslt.outputDir" expression="${ws.home}/XSLT_Reports/output/"/>

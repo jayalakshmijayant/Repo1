@@ -2,10 +2,17 @@ package Test_Listeners_testNG;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+<<<<<<< HEAD
 //import org.testng.asserts.SoftAssert;
 
 public class LoginTest {
 //public SoftAssert s= new SoftAssert();
+=======
+import org.testng.asserts.SoftAssert;
+
+public class LoginTest {
+public SoftAssert s= new SoftAssert();
+>>>>>>> b95f80cf2e33dc63fda04097a1702ad30d7f3615
 @Test
 public void loginTest(){
 	

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <testng-results>
   <reporter-output>
   </reporter-output>
@@ -89,6 +90,94 @@
     <test name="Login Test" duration-ms="5" started-at="2018-03-29T14:08:53Z" finished-at="2018-03-29T14:08:53Z">
       <class name="module9TestNG.LoginTest">
         <test-method status="PASS" signature="doLoginTEst(java.lang.String, java.lang.String, java.lang.String)" name="doLoginTEst" duration-ms="1" started-at="2018-03-29T14:08:53Z" finished-at="2018-03-29T14:08:53Z">
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" ignored="0" total="7" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Learning testNG" duration-ms="144" started-at="2018-01-14T22:37:02Z" finished-at="2018-01-14T22:37:02Z">
+    <groups>
+    </groups>
+    <test name="TestNGApplication" duration-ms="39" started-at="2018-01-14T22:37:02Z" finished-at="2018-01-14T22:37:02Z">
+      <class name="module9TestNG.TestNGApplication">
+        <test-method status="PASS" signature="beforeTEst()[pri:0, instance:module9TestNG.TestNGApplication@9629756]" name="beforeTEst" is-config="true" duration-ms="8" started-at="2018-01-14T16:37:02Z" finished-at="2018-01-14T16:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTEst -->
+        <test-method status="PASS" signature="beforeMthod()[pri:0, instance:module9TestNG.TestNGApplication@9629756]" name="beforeMthod" is-config="true" duration-ms="0" started-at="2018-01-14T16:37:02Z" finished-at="2018-01-14T16:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMthod -->
+        <test-method status="PASS" signature="doLogin()[pri:1, instance:module9TestNG.TestNGApplication@9629756]" name="doLogin" duration-ms="4" started-at="2018-01-14T16:37:02Z" finished-at="2018-01-14T16:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:module9TestNG.TestNGApplication@9629756]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-14T16:37:02Z" finished-at="2018-01-14T16:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="updateNameTEst()[pri:2, instance:module9TestNG.TestNGApplication@9629756]" name="updateNameTEst" duration-ms="1" started-at="2018-01-14T16:37:02Z" finished-at="2018-01-14T16:37:02Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[skipping the test]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: skipping the testat module9TestNG.TestNGApplication.updateNameTEst(TestNGApplication.java:39)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateNameTEst -->
+        <test-method status="PASS" signature="beforeMthod()[pri:0, instance:module9TestNG.TestNGApplication@9629756]" name="beforeMthod" is-config="true" duration-ms="0" started-at="2018-01-14T16:37:02Z" finished-at="2018-01-14T16:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMthod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:module9TestNG.TestNGApplication@9629756]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-14T16:37:02Z" finished-at="2018-01-14T16:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="LogoutTEst()[pri:3, instance:module9TestNG.TestNGApplication@9629756]" name="LogoutTEst" duration-ms="1" started-at="2018-01-14T16:37:02Z" finished-at="2018-01-14T16:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutTEst -->
+        <test-method status="PASS" signature="beforeMthod()[pri:0, instance:module9TestNG.TestNGApplication@9629756]" name="beforeMthod" is-config="true" duration-ms="0" started-at="2018-01-14T16:37:02Z" finished-at="2018-01-14T16:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMthod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:module9TestNG.TestNGApplication@9629756]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-14T16:37:02Z" finished-at="2018-01-14T16:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTEst()[pri:0, instance:module9TestNG.TestNGApplication@9629756]" name="afterTEst" is-config="true" duration-ms="0" started-at="2018-01-14T16:37:02Z" finished-at="2018-01-14T16:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTEst -->
+      </class> <!-- module9TestNG.TestNGApplication -->
+    </test> <!-- TestNGApplication -->
+    <test name="RegistrationTest" duration-ms="12" started-at="2018-01-14T22:37:02Z" finished-at="2018-01-14T22:37:02Z">
+      <class name="module9TestNG.RegistrationTest">
+        <test-method status="FAIL" signature="doREgister()[pri:0, instance:module9TestNG.RegistrationTest@224edc67]" name="doREgister" duration-ms="8" started-at="2018-01-14T16:37:02Z" finished-at="2018-01-14T16:37:02Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error not match expected [xxxx] but found [xxxx1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error not match expected [xxxx] but found [xxxx1]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:453)at module9TestNG.RegistrationTest.doREgister(RegistrationTest.java:18)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doREgister -->
+      </class> <!-- module9TestNG.RegistrationTest -->
+    </test> <!-- RegistrationTest -->
+    <test name="Login Test" duration-ms="38" started-at="2018-01-14T22:37:02Z" finished-at="2018-01-14T22:37:02Z">
+      <class name="module9TestNG.LoginTest">
+        <test-method status="PASS" signature="beforemthd()[pri:0, instance:module9TestNG.LoginTest@29774679]" name="beforemthd" is-config="true" duration-ms="1" started-at="2018-01-14T16:37:02Z" finished-at="2018-01-14T16:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemthd -->
+        <test-method status="PASS" signature="doLoginTEst(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9TestNG.LoginTest@29774679]" name="doLoginTEst" duration-ms="4" started-at="2018-01-14T16:37:02Z" data-provider="getData" finished-at="2018-01-14T16:37:02Z">
+>>>>>>> b95f80cf2e33dc63fda04097a1702ad30d7f3615
           <params>
             <param index="0">
               <value>
@@ -106,6 +195,7 @@
               </value>
             </param>
           </params>
+<<<<<<< HEAD
         </test-method>
         <test-method status="PASS" signature="beforemthd()" name="beforemthd" is-config="true" duration-ms="0" started-at="2018-03-29T14:08:53Z" finished-at="2018-03-29T14:08:53Z">
         </test-method>
@@ -116,6 +206,16 @@
         <test-method status="PASS" signature="beforemthd()" name="beforemthd" is-config="true" duration-ms="0" started-at="2018-03-29T14:08:53Z" finished-at="2018-03-29T14:08:53Z">
         </test-method>
         <test-method status="PASS" signature="doLoginTEst(java.lang.String, java.lang.String, java.lang.String)" name="doLoginTEst" duration-ms="0" started-at="2018-03-29T14:08:53Z" finished-at="2018-03-29T14:08:53Z">
+=======
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTEst -->
+        <test-method status="PASS" signature="afterMthd()[pri:0, instance:module9TestNG.LoginTest@29774679]" name="afterMthd" is-config="true" duration-ms="1" started-at="2018-01-14T16:37:02Z" finished-at="2018-01-14T16:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMthd -->
+        <test-method status="PASS" signature="doLoginTEst(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9TestNG.LoginTest@29774679]" name="doLoginTEst" duration-ms="4" started-at="2018-01-14T16:37:02Z" data-provider="getData" finished-at="2018-01-14T16:37:02Z">
+>>>>>>> b95f80cf2e33dc63fda04097a1702ad30d7f3615
           <params>
             <param index="0">
               <value>
@@ -133,10 +233,29 @@
               </value>
             </param>
           </params>
+<<<<<<< HEAD
         </test-method>
         <test-method status="PASS" signature="afterMthd()" name="afterMthd" is-config="true" duration-ms="2" started-at="2018-03-29T14:08:53Z" finished-at="2018-03-29T14:08:53Z">
         </test-method>
         <test-method status="PASS" signature="doLoginTEst(java.lang.String, java.lang.String, java.lang.String)" name="doLoginTEst" duration-ms="0" started-at="2018-03-29T14:08:53Z" finished-at="2018-03-29T14:08:53Z">
+=======
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTEst -->
+        <test-method status="PASS" signature="beforemthd()[pri:0, instance:module9TestNG.LoginTest@29774679]" name="beforemthd" is-config="true" duration-ms="0" started-at="2018-01-14T16:37:02Z" finished-at="2018-01-14T16:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemthd -->
+        <test-method status="PASS" signature="beforemthd()[pri:0, instance:module9TestNG.LoginTest@29774679]" name="beforemthd" is-config="true" duration-ms="1" started-at="2018-01-14T16:37:02Z" finished-at="2018-01-14T16:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemthd -->
+        <test-method status="PASS" signature="afterMthd()[pri:0, instance:module9TestNG.LoginTest@29774679]" name="afterMthd" is-config="true" duration-ms="0" started-at="2018-01-14T16:37:02Z" finished-at="2018-01-14T16:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMthd -->
+        <test-method status="PASS" signature="doLoginTEst(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9TestNG.LoginTest@29774679]" name="doLoginTEst" duration-ms="2" started-at="2018-01-14T16:37:02Z" data-provider="getData" finished-at="2018-01-14T16:37:02Z">
+>>>>>>> b95f80cf2e33dc63fda04097a1702ad30d7f3615
           <params>
             <param index="0">
               <value>
@@ -154,10 +273,23 @@
               </value>
             </param>
           </params>
+<<<<<<< HEAD
         </test-method>
         <test-method status="PASS" signature="beforemthd()" name="beforemthd" is-config="true" duration-ms="0" started-at="2018-03-29T14:08:53Z" finished-at="2018-03-29T14:08:53Z">
         </test-method>
       </class>
     </test>
   </suite>
+=======
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTEst -->
+        <test-method status="PASS" signature="afterMthd()[pri:0, instance:module9TestNG.LoginTest@29774679]" name="afterMthd" is-config="true" duration-ms="0" started-at="2018-01-14T16:37:02Z" finished-at="2018-01-14T16:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMthd -->
+      </class> <!-- module9TestNG.LoginTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Learning testNG -->
+>>>>>>> b95f80cf2e33dc63fda04097a1702ad30d7f3615
 </testng-results>
