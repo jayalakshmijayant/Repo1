@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Learning testNG Test Listeners" >
+	<listeners>
+	<listener class-name="Test_Listeners_testNG.listenerClass" />
+	</listeners>
+	<test name="LoginTest" allow-return-values="true">
+	<classes>
+		<class name="Test_Listeners_testNG.LoginTest" />
+	</classes>
+	</test>	
+</suite>

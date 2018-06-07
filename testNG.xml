@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Learning testNG" parallel="true">
+	<test name="TestNGApplication" allow-return-values="true">
+		<classes>
+			<class name="module9TestNG.TestNGApplication" />
+		</classes>
+	</test>
+	<test name="RegistrationTest" allow-return-values="true">
+		<classes>
+			<class name="module9TestNG.RegistrationTest" />
+		</classes>
+	</test>
+	<test name="Login Test" allow-return-values="true">
+		<classes>
+			<class name="module9TestNG.LoginTest" />
+		</classes>
+	</test>
+</suite>
